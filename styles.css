@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+:root{
+    background-color:rgb(135, 206, 235);
+   }
+   p:first-child {
+    color: white;
+    background-color: black;
+  }
+  
+  /* Second paragraph: Standard text color */
+  p:nth-child(2) {
+    /* You can add any desired styles here for the second paragraph */
+  }
+  
+  /* Third paragraph: Red text */
+  p:last-child {
+    color: red;
+  }
+ul>li:nth-child(even){
+	background-color:grey;
+	width:50%;
+	padding:10px;
+}
+ul>li:nth-child(odd){
+	background-color:white;
+	width:50%;
+	padding:10px;
+}
+ul>li:nth-child(1){
+	font-size:22px;
+}
+ul>li:last-child{
+	font-size:22px;
+}
+ul>li:nth-last-child(3){
+	background-color:pink;
+}
